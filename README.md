@@ -26,7 +26,8 @@ cd devkit/projects/myproject
 npm install
 ````
 
-## Modules
+Modules
+-----------
 
 ### deviceExtensions
 
