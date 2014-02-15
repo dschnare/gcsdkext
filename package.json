@@ -8,6 +8,7 @@
     "HTML5",
     "Games"
   ],
+  "repository": "git@github.com:dschnare/gcsdkext.git",
   "author": "Darren Schanre <dschnare@gmail.com>",
   "license": "MIT"
 }
