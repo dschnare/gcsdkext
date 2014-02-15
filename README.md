@@ -30,9 +30,7 @@ import deviceExtensions.js as device;
 
 ### ScaledApplication
 
-Base class for a scalable application. A scalable application is an
-application that follows the "Scaling the Game to Fit the Device"
-article (http://docs.gameclosure.com/guide/scaling.html).
+Base class for a scalable application. A scalable application is an application that follows the [Scaling the Game to Fit the Device](http://docs.gameclosure.com/guide/scaling.html) article.
 
 ScaledApplication instances expose the following properties:
 
