@@ -53,6 +53,8 @@ The following methods are available for convenience:
 **Usage:**
 
 ````javascript
+// src/Application.js
+
 import node_modules.gcsdkext.ScaledApplication;
 import node_modules.gcsdkext.deviceExtensions as device;
 
