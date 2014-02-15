@@ -1,0 +1,13 @@
+{
+  "name": "gcsdkext",
+  "version": "0.0.1",
+  "description": "Extensions and useful classes for the Game Closure SDK",
+  "keywords": [
+    "Game Closure SDK",
+    "Game Closure",
+    "HTML5",
+    "Games"
+  ],
+  "author": "Darren Schanre <dschnare@gmail.com>",
+  "license": "MIT"
+}
