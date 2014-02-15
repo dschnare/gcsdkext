@@ -1,21 +1,3 @@
-// deviceExtensions.js
-
-// This module extends the built-in GC SDK device module
-// as well as resolving the issue of the device rotation handler
-// not firing when running the game in the simulator.
-//
-// The following extensions are applied:
-// - device.addRotationHandler/removeRotationHandler are added to support multiple rotation handlers
-// - device.addBackButtonHandler/removeBackButtonHandler are added to support multiple back button handlers
-//
-// The following issues are resolved:
-// - rotation handlers set via device.setRotationHandler (or the new methods mentioned above) now get
-//   triggered when running the game in the simulator.
-//
-// Usage:
-// import deviceExtensions.js as device;
-
-
 import device;
 import ui.Engine;
 
