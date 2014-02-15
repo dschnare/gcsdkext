@@ -84,7 +84,7 @@ exports = Class(ScaledApplication, function (supr) {
   // Override init() if you want to set different display dimensions
   // than wat are recommended in the article.
   //this.init = function () {
-  //  super(this, 'init', [{
+  //  supr(this, 'init', [{
   //    displayWidth: 576,
   //    displayHeight: 1024
   //  }]);
