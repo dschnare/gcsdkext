@@ -41,13 +41,13 @@ function updateWorldDimensions() {
   app = GC.app;
 
   if (screen.isLandscape) {
-    app.worldWidth = screen.width * (app.displayWidth / screen.height);
-    app.worldHeight = app.dipslayWidth;
-    app.view.style.scale = screen.height / app.displayWidth;
+    app.worldWidth = screen.width * (app.displayHeight / screen.height);
+    app.worldHeight = app.displayHeight;
+    app.view.style.scale = screen.height / app.worldHeight;
   } else {
     app.worldWidth = app.displayWidth;
     app.worldHeight = screen.height * (app.displayWidth / screen.width);
-    app.view.style.scale = screen.width / app.displayWidth;
+    app.view.style.scale = screen.width / app.worldWidth;
   }
 }
 

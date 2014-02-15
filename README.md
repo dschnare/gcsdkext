@@ -6,9 +6,24 @@ Extensions and useful classes for the Game Closure SDK.
 Installation
 -------------
 
+Create a package.json file in your project directory.
+
+````json
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "gcsdk": "git://github.com/dschnare/gcsdkext.git"
+  }
+}
 ````
+
+Then install:
+
+````shell
 cd devkit/projects/myproject
-npm install git://github.com/dschnare/gcsdkext.git
+npm install
 ````
 
 ## Modules
@@ -29,7 +44,7 @@ The following issues are resolved:
 **Usage:**
 
 ````javascript
-import deviceExtensions.js as device;
+import node_modules.gcsdkext.deviceExtensions.js as device;
 ````
 
 
@@ -62,7 +77,7 @@ The following methods are available for convenience:
 ````javascript
 // src/Application.js
 
-import node_modules.gcsdkext.ScaledApplication;
+import node_modules.gcsdkext.ScaledApplication as ScaledApplication;
 import node_modules.gcsdkext.deviceExtensions as device;
 
 exports = Class(ScaledApplication, function (supr) {
