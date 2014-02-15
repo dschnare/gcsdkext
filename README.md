@@ -1,7 +1,7 @@
 gcsdkext
 ========
 
-Extensions and useful classes for the Game Closure SDK.
+Extensions, bug fixes and useful classes for the Game Closure SDK.
 
 Installation
 -------------
