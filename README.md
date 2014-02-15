@@ -10,7 +10,7 @@ Create a package.json file in your project directory.
 
 ````json
 {
-  "name": "hello-world",
+  "name": "myproject",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -39,12 +39,12 @@ The following extensions are applied:
 
 The following issues are resolved:
 
-- rotation handlers set via `device.setRotationHandler` (or the new methods mentioned above) now get triggered when running the game in the simulator.
+- rotation handlers set via `device.setRotationHandler` (or the new methods mentioned above) do not get triggered when running the game in the simulator.
 
 **Usage:**
 
 ````javascript
-import node_modules.gcsdkext.deviceExtensions.js as device;
+import node_modules.gcsdkext.deviceExtensions as device;
 ````
 
 
