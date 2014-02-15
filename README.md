@@ -3,6 +3,13 @@ gcsdkext
 
 Extensions and useful classes for the Game Closure SDK.
 
+Installation
+-------------
+
+````
+cd devkit/projects/myproject
+npm install git://github.com/dschnare/gcsdkext.git
+````
 
 ## Modules
 
