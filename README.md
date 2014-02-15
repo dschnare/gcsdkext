@@ -34,8 +34,8 @@ Base class for a scalable application. A scalable application is an application 
 
 ScaledApplication instances expose the following properties:
 
-- `displayWidth` = The width of the maximum displayable region
-- `displayHeight` = The height of the maximum displayable region
+- `displayWidth` = The width of the maximum displayable region (defaults to 576)
+- `displayHeight` = The height of the maximum displayable region (defaults to 1024)
 - `worldWidth` = (Only available after initUI() has been called) The logical width of the game world
 - `worldHeight` = (Only available after initUI() has been called) The logical height of the game world
 
